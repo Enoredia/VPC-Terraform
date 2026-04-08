@@ -1,7 +1,7 @@
 ### VPC Design Document
 
 #### •	Region & Availability Zones
-Region: eu-west-2 (London)
+Region: eu-west-1 (Ireland)
 
 I selected the region closest to West Africa and cost effective, which is eu-west-1 , to ensure affordability for ShopNaija and to ensure high availability.  eu-west-1 is a mainstream AWS region with broad service availability and multiple AZs, which is helpful for building the full architecture. 
 Two availability zones to ensure enough resilience for AZ failure, while keeping cost lower than a 3-AZ design.
